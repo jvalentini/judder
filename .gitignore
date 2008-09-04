@@ -4,6 +4,7 @@
 
 -- Rails stuff
 log/*.log
+tmp/*
 tmp/**/*
 .DS_Store
 doc/api
