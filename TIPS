@@ -1,0 +1,1 @@
+Haml requires the following to be run: haml --rails /path/to/app
