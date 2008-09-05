@@ -1,10 +1,11 @@
 login: &login
-  adapter:  mysql
-  username: posters
-  password: posters
-  host:     localhost
-  timeout:  5000
-  charset:  latin1
+  adapter:   mysql
+  username:  posters
+  password:  posters
+  host:      localhost
+  timeout:   5000
+  charset:   latin1
+  collation: latin1_swedish_ci
 
 development:
   <<: *login
