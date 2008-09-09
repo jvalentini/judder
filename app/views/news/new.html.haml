@@ -1,0 +1,16 @@
+%h1 New news
+
+- form_for(:news, :url => { :controller => "news"}) do |f|
+  = f.error_messages
+  %p
+    = f.label :title
+    %br/
+    = f.text_field :title
+  %p
+    = f.label :body
+    %br/
+    = f.text_area :body
+  %p
+    = f.submit "Create"
+
+= link_to 'Back', :controller => "news"

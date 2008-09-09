@@ -1,0 +1,11 @@
+%p
+  %b Title:
+  = html_escape(@news.title)
+
+%p
+  %b Body:
+  = html_escape(@news.body)
+
+= link_to 'Edit', edit_news_path(@news)
+|
+= link_to 'Back', :controller => "news"
